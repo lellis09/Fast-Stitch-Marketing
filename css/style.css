@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+    /* colors */
+    --primary-100: #fec260;
+    --primary-300: #a12568;
+    --primary-500: #3b185f;
+    --primary-700: #2a0944;
+  
+    /* alternates */
+    --alt-50: #ffb5b5;
+    --alt-100: #ff7272;
+    --alt-200: #9b0000;
+    --alt-300: #000b49;
+    
+    /* rest of the colors */
+    --red-light: #ff0000;
+    --red-med: #950101;
+    --red-dark: #3d0000;
+    --black: #000000;
+    
+}
+
+.hero{
+    height: 100vh;
+    background: var(--primary-700);
+
+}
+
+h1{
+    color: var(--primary-100);
+    font-size: 4rem;
+}
+
+/* Hero section items */
+.hero-pic-container{
+    background: var(--primary-300);
+}
+
+.hero-head{
+    padding: 0 1em 0 1em;
+}
+
+.hero-txt{
+    color: var(--alt-50);
+    padding: 0 1em 0 1em;
+}
+
